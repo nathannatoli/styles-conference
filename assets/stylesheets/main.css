@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
-body {
+body{
   line-height: 1;
 }
 ol, ul {
@@ -42,7 +42,7 @@ q:before, q:after {
   content: '';
   content: none;
 }
-table {
+table{
   border-collapse: collapse;
   border-spacing: 0;
 }
@@ -53,7 +53,7 @@ table {
   ========================================
 */
 
-body {
+body{
   background: #293f50;
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -146,13 +146,13 @@ body {
   ========================================
 */
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4{
   color: #648880;
 }
-h1, h3, h4, h5, p {
+h1, h3, h4, h5, p{
   margin-bottom: 22px;
 }
-h1 {
+h1{
   font-size: 36px;
   line-height: 44px;
 }
@@ -160,23 +160,23 @@ h2 {
   font-size: 24px;
   line-height: 44px;
 }
-h3 {
+h3{
   font-size: 21px;
 }
-h4 {
+h4{
   font-size: 18px;
 }
-h5 {
+h5{
   color: #a9b2b9;
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
 }
-strong {
+strong{
   font-weight: 400;
 }
 cite,
-em {
+em{
   font-style: italic;
 }
 
@@ -200,7 +200,7 @@ em {
   ========================================
 */
 
-a {
+a{
   color: #648880;
   text-decoration: none;
 }
@@ -211,11 +211,11 @@ p a {
   border-bottom: 1px solid #dfe2e5;
 }
 .primary-header a,
-.primary-footer a {
+.primary-footer a{
   color: #fff;
 }
 .primary-header a:hover,
-.primary-footer a:hover {
+.primary-footer a:hover{
   color: #648880;
 }
 
@@ -225,7 +225,7 @@ p a {
   ========================================
 */
 
-.btn {
+.btn{
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
@@ -250,7 +250,7 @@ p a {
   ========================================
 */
 
-.logo {
+.logo{
   border-top: 4px solid #648880;
   float: left;
   font-size: 48px;
@@ -260,11 +260,11 @@ p a {
   padding: 40px 0 22px 0;
   text-transform: uppercase;
 }
-.tagline {
+.tagline{
   margin: 66px 0 22px 0;
   text-align: right;
 }
-.primary-nav {
+.primary-nav{
   font-size: 14px;
   font-weight: 400;
   letter-spacing: .5px;
@@ -277,13 +277,13 @@ p a {
   ========================================
 */
 
-.primary-footer {
+.primary-footer{
   color: #648880;
   font-size: 14px;
   padding-bottom: 44px;
   padding-top: 44px;
 }
-.primary-footer small {
+.primary-footer small{
   float: left;
   font-weight: 400;
 }
@@ -294,10 +294,10 @@ p a {
   ========================================
 */
 
-.nav {
+.nav{
   text-align: right;
 }
-.nav li {
+.nav li{
   display: inline-block;
   margin: 0 10px;
   vertical-align: top;
@@ -312,23 +312,23 @@ p a {
   ========================================
 */
 
-.hero {
+.hero{
   color: #fff;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
 }
-.hero h2 {
+.hero h2{
   font-size: 36px;
 }
-.hero p {
+.hero p{
   font-size: 24px;
   font-weight: 100;
 }
-.teaser a:hover h3 {
+.teaser a:hover h3{
   color: #a9b2b9;
 }
-.teaser img {
+.teaser img{
   border-radius: 5px;
   display: block;
   margin-bottom: 22px;
@@ -341,21 +341,21 @@ p a {
   ========================================
 */
 
-.speaker {
-  margin-bottom: 44px;
+.speaker{
+  margin-bottom:44px;
 }
-.speaker-info {
-  border: 1px solid #dfe2e5;
-  border-radius: 5px;
-  margin-top: 88px;
-  padding-bottom: 22px;
-  text-align: center;
+.speaker-info{
+  border:1px solid #dfe2e5;
+  border-radius:5px;
+  margin-top:88px;
+  padding-bottom:22px;
+  text-align:center;
 }
-.speaker-info img {
-  border-radius: 50%;
-  height: 130px;
-  margin: -66px 0 22px 0;
-  vertical-align: top;
+.speaker-info img{
+  border-radius:50%;
+  height:130px;
+  margin:-66px 0 22px 0;
+  vertical-align:top;
 }
 
 /*
@@ -364,12 +364,72 @@ p a {
   ========================================
 */
 
-.venue-theatre {
-  margin-bottom: 66px;
+.venue-theatre{
+  margin-bottom:66px;
 }
-.venue-hotel {
+.venue-hotel{
+  margin-bottom:22px;
+}
+.venue-map{
+  height:264px;
+}
+/*
+  ========================================
+  Register
+  ========================================
+*/
+
+.why-attend{
+  list-style: square;
+  margin: 0 0 22px 30px;
+}
+form{
   margin-bottom: 22px;
 }
-.venue-map {
-  height: 264px;
+input,
+select,
+textarea{
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.register-group label{
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea{
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 80px
+}
+.register-group input,
+.register-group textarea{
+  width: 100%;
+}
+.register-group select{
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea{
+  height: 78px;
+}
+.btn-default{
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover{
+  background: #77a198;
+}
+
+
+
+
+
+
+
